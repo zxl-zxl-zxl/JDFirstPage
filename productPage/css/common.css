@@ -1,0 +1,24 @@
+/* 公共的css样式 */
+.pr{
+    position:relative;
+}
+.pa{
+    position: absolute;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+
+.mT4{
+    margin-top:4px ;
+}
+.mL3{
+    margin-left: 3px;
+}
+.mR3{
+    margin-right: 3px;
+}

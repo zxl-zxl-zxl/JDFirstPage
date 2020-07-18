@@ -1,0 +1,374 @@
+/* 首页的css */
+.logoDiv {
+  width: 134px;
+  height: 117px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 顶部导航条 */
+.topMenu {
+  width: 714px;
+  height: 22px;
+  background: rgb(223, 223, 223);
+  float: right;
+  font-size: 6px;
+}
+
+.topMenu label {
+  float: left;
+}
+.topMenu label.cityName {
+  float: left;
+  background: url("../image/icon_position.jpg") no-repeat;
+  padding-left: 12px;
+  margin: 4px 0 0 12px;
+  color: #6f6e71;
+}
+
+.topMenu ul {
+  float: right;
+}
+.topMenu ul li {
+  float: left;
+  padding: 0 7px;
+  line-height: 22px;
+  color: #6f6e71;
+}
+.topMenu ul li p {
+  float: left;
+}
+.topMenu ul li.red {
+  color: #f00;
+}
+.topMenu ul em {
+  width: 1px;
+  height: 6px;
+  background: #c4c3c7;
+  overflow: hidden;
+  float: left;
+  margin: 8px 0 0 0;
+}
+.topMenu ul li i.popUpBtn {
+  width: 9px;
+  height: 8px;
+  float: right;
+  background: url("../image/icon_triangle.jpg") no-repeat left top;
+  margin: 5px 0 0 1px;
+  cursor: pointer;
+}
+
+/* header搜索框 */
+.searchWrap {
+  width: 555px;
+  height: 41px;
+  position: absolute;
+  top: 36px;
+  right: 72px;
+}
+
+input.headerSearch {
+  width: 352px;
+  height: 23px;
+  background: #fff;
+  border: 1px solid #f00;
+  float: left;
+  color: #6f6e71;
+  font-size: 10px;
+  padding-left: 5px;
+}
+input.searchBtn {
+  width: 36px;
+  height: 25px;
+  background: #f00;
+  border: 0;
+  float: left;
+  background-image: url("../image/icon_magnify.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.myShopDiv {
+  width: 134px;
+  height: 23px;
+  float: left;
+  margin-left: 22px;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 23px;
+  font-size: 10px;
+  color: #f00;
+  background-image: url("../image/icon_shoppingcart.jpg");
+  background-repeat: no-repeat;
+  background-position: 25px 4px;
+  position: relative;
+}
+
+.myShopDiv i.shopNum {
+  position: absolute;
+  top: 4px;
+  right: 30px;
+  width: 10px;
+  height: 10px;
+  background: #f00;
+  color: #fff;
+  font-size: 8px;
+  text-align: center;
+  line-height: 10px;
+  border-radius: 100%;
+}
+
+.columnDiv {
+  position: absolute;
+  bottom: 7px;
+  left: 166px;
+}
+.columnDiv ul li {
+  float: left;
+  font-size: 11px;
+  padding-right: 21px;
+  font-weight: bold;
+  color: #555557;
+  font-family: monospace;
+}
+.columnDiv em {
+  width: 1px;
+  height: 7px;
+  background: #c4c3c7;
+  overflow: hidden;
+  float: left;
+  margin: 2px 0 0 -12px;
+}
+
+.columnDiv i.hot {
+  width: 23px;
+  height: 14px;
+  background: url("../image/icon_hudiejie.jpg") no-repeat;
+  /* display: block; */
+}
+
+/* product导航条 */
+.productNav {
+  float: left;
+  width: 134px;
+  height: 341px;
+  background: #6e6568;
+}
+.productNav ul {
+  margin-top: 9px;
+}
+.productNav ul li {
+  clear: both;
+  height: 21px;
+  margin-left: 4px;
+  padding-left: 5px;
+  position: relative;
+}
+.productNav ul li p {
+  line-height: 21px;
+  color: #fff;
+  text-align: left;
+  font-size: 9px;
+}
+.productNav ul li:hover {
+  background: #ddd;
+  color: #6e6568;
+  cursor: pointer;
+}
+.productNav ul li div.popup {
+  width: 180px;
+  height: 140px;
+  background: #ddd;
+  position: absolute;
+  top: 0;
+  right: -180px;
+  display: none;
+}
+.productNav ul li:hover div.popup {
+  display: block;
+  z-index: 12;
+}
+
+/* 轮播图 */
+.sliderDiv {
+  width: 710px;
+  height: 242px;
+  float: right;
+  overflow: hidden;
+  position: relative;
+}
+.sliderDiv ul {
+  width: 2840px;
+  height: 242px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8;
+}
+.sliderDiv ul li {
+  width: 710px;
+  height: 242px;
+  float: right;
+  overflow: hidden;
+}
+.sliderDiv ul li img {
+  width: 710px;
+  height: 242px;
+}
+.sliderDiv label,
+.sliderDiv span {
+  width: 25px;
+  height: 40px;
+  background: #000;
+  position: absolute;
+  top: 100px;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  /* 支持IE浏览器 */
+  filter: alpha(opacity=30);
+  /* 支持FireFox浏览器 */
+  -moz-opacity: 0.3;
+  /* 支持Chrome,Opera,Safari浏览器 */
+  opacity: 0.3;
+}
+.sliderDiv label {
+  left: 0;
+  z-index: 9;
+}
+.sliderDiv span {
+  right: 0;
+  z-index: 9;
+}
+.sliderDiv label:hover {
+  /* 支持IE浏览器 */
+  filter: alpha(opacity=70);
+  /* 支持FireFox浏览器 */
+  -moz-opacity: 0.7;
+  /* 支持Chrome,Opera,Safari浏览器 */
+  opacity: 0.7;
+}
+.sliderDiv span:hover {
+  /* 支持IE浏览器 */
+  filter: alpha(opacity=70);
+  /* 支持FireFox浏览器 */
+  -moz-opacity: 0.7;
+  /* 支持Chrome,Opera,Safari浏览器 */
+  opacity: 0.7;
+}
+
+/* 小白点 */
+.pointerBtn {
+  width: 150px;
+  height: 15px;
+  z-index: 11;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  bottom: 13px;
+}
+.pointerBtn ul {
+  width: auto;
+  position: static;
+  margin-left: 4px;
+}
+.pointerBtn ul li {
+  background: #fff;
+  border-radius: 100%;
+  margin: 2px 15px 0 0;
+  width: 11px;
+  height: 11px;
+}
+.pointerBtn ul li:hover {
+  background: rgb(206, 204, 204);
+  cursor: pointer;
+}
+.pointerBtnBg {
+  width: 150px;
+  height: 15px;
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  bottom: 13px;
+  background: #fff;
+  /* 支持IE浏览器 */
+  filter: alpha(opacity=30);
+  /* 支持FireFox浏览器 */
+  -moz-opacity: 0.3;
+  /* 支持Chrome,Opera,Safari浏览器 */
+  opacity: 0.3;
+
+  border-radius: 10px;
+}
+
+/* 广告位 */
+.adDiv {
+  width: 710px;
+  height: 95px;
+  float: right;
+}
+.adDiv img {
+  width: 353px;
+  height: 95px;
+}
+
+/* 享品质title */
+.productListTitle {
+  width: 825px;
+  height: 40px;
+  margin: 0 auto;
+  background-image: url(../image/point.jpg);
+  background-color: #f6f6f6;
+  background-repeat: repeat-x;
+  background-position: center;
+  text-align: center;
+  clear: both;
+}
+.productListTitle p {
+  display: inline-block;
+  padding: 0 45px;
+  background: #f6f6f6;
+  height: 40px;
+  line-height: 40px;
+}
+/* 产品列表 */
+.productList {
+  width: 825px;
+  height: 113px;
+  margin: 0 auto;
+}
+.productBlock {
+  width: 273px;
+  height: 113px;
+  float: left;
+}
+.productBlock dl {
+  width: 101px;
+  height: 116px;
+  float: left;
+}
+.productBlock dl dt {
+  width: 68px;
+  height: 26px;
+  margin: 31px auto 0 auto;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  line-height: 26px;
+  color: #fff;
+  font-size: 12px;
+}
+.productBlock dl dd {
+  width: 80px;
+  height: 26px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-size: 8px;
+}
